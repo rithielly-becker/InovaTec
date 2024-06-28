@@ -1,0 +1,67 @@
+/* header */
+
+/* nav */
+
+.navbar {
+    background-color: brown;
+}
+
+.nav-item,
+.nav-link,
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-item:hover,
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link:focus {
+    /*para remover o foco do botao que esta clicado*/
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+#produtos .nav-link{
+    background-color: #fff;
+    color: brown;
+}
+
+#produtos .nav-link.active{
+    background-color: rgb(216, 28, 28);
+    color: #fff;
+}
+/* carousel */
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* organizar melhoro o carousel futuramente */
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* sobre */
+
+/* section img{
+    max-width: 40%;
+} */
+
+#sobre {
+    margin-top: 30px;
+}
+
+.navbar-toggler{
+    background-color: aliceblue;
+}
